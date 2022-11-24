@@ -1,0 +1,226 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="MainGame">
+      <UniqueIdentifier>{ac087877-18fc-4ef2-b07f-34531502bd29}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFrameWork">
+      <UniqueIdentifier>{b50c24ea-55da-47dd-a77e-6b350a268d7b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Scene">
+      <UniqueIdentifier>{1d24dbf6-148b-4e06-a2bb-5cf06fa6c38c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFrameWork\components">
+      <UniqueIdentifier>{189e5fa9-8e1d-4183-9281-ee14e4fc8988}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFrameWork\components\manager">
+      <UniqueIdentifier>{b440d616-af23-4c23-85e8-8c7c2b13c9d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFrameWork\components\Timer">
+      <UniqueIdentifier>{dd2367f5-ced1-4b28-8674-b3948ebf9bc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2DFrameWork\components\Image">
+      <UniqueIdentifier>{deed2065-b4b8-4b49-b685-f3ef5b6a354f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Scene\Intro">
+      <UniqueIdentifier>{abae3ad8-47fd-4979-a6a9-553c573428b2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Scene\Tutorial">
+      <UniqueIdentifier>{f5c70c6f-8359-4bf6-9bc2-9ea00c2f04aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Mobs">
+      <UniqueIdentifier>{0a8a19e8-9329-4099-a4ed-7265cf1e5016}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Mobs\Player">
+      <UniqueIdentifier>{9f092c4e-05b6-4d99-9faa-de51486acf36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Mobs\Player\Bullet">
+      <UniqueIdentifier>{0d54aa6e-33cd-4b3e-b701-e15d684d2a8b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="MainGame\Objects">
+      <UniqueIdentifier>{f43bad19-23ee-454a-9a2d-aebff4e2e6ba}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="stdafx.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Resource.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="cuphead_20191118.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="gameNode.h">
+      <Filter>2DFrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="txtData.h">
+      <Filter>2DFrameWork</Filter>
+    </ClInclude>
+    <ClInclude Include="ImageManager.h">
+      <Filter>2DFrameWork\components\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SoundManager.h">
+      <Filter>2DFrameWork\components\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="TimerManager.h">
+      <Filter>2DFrameWork\components\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="keyManager.h">
+      <Filter>2DFrameWork\components\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="singletonBase.h">
+      <Filter>2DFrameWork\components\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="SceneManager.h">
+      <Filter>2DFrameWork\components\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="Animation.h">
+      <Filter>2DFrameWork\components</Filter>
+    </ClInclude>
+    <ClInclude Include="mainGame.h">
+      <Filter>MainGame</Filter>
+    </ClInclude>
+    <ClInclude Include="commonMacroFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="randomFunction.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>2DFrameWork\components\Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>2DFrameWork\components\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="D2Image.h">
+      <Filter>2DFrameWork\components\Image</Filter>
+    </ClInclude>
+    <ClInclude Include="LoadingScene.h">
+      <Filter>MainGame\Scene</Filter>
+    </ClInclude>
+    <ClInclude Include="D2ImageManager.h">
+      <Filter>2DFrameWork\components\manager</Filter>
+    </ClInclude>
+    <ClInclude Include="LogoScene.h">
+      <Filter>MainGame\Scene\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="MenuScene.h">
+      <Filter>MainGame\Scene\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="TitleScene.h">
+      <Filter>MainGame\Scene\Intro</Filter>
+    </ClInclude>
+    <ClInclude Include="TutorialScene.h">
+      <Filter>MainGame\Scene\Tutorial</Filter>
+    </ClInclude>
+    <ClInclude Include="Cuphead.h">
+      <Filter>MainGame\Mobs\Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Bullet.h">
+      <Filter>MainGame\Mobs\Player\Bullet</Filter>
+    </ClInclude>
+    <ClInclude Include="Footing.h">
+      <Filter>MainGame\Objects</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="cuphead_20191118.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="gameNode.cpp">
+      <Filter>2DFrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="txtData.cpp">
+      <Filter>2DFrameWork</Filter>
+    </ClCompile>
+    <ClCompile Include="ImageManager.cpp">
+      <Filter>2DFrameWork\components\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SoundManager.cpp">
+      <Filter>2DFrameWork\components\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="TimerManager.cpp">
+      <Filter>2DFrameWork\components\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="keyManager.cpp">
+      <Filter>2DFrameWork\components\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="SceneManager.cpp">
+      <Filter>2DFrameWork\components\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="Animation.cpp">
+      <Filter>2DFrameWork\components</Filter>
+    </ClCompile>
+    <ClCompile Include="mainGame.cpp">
+      <Filter>MainGame</Filter>
+    </ClCompile>
+    <ClCompile Include="Timer.cpp">
+      <Filter>2DFrameWork\components\Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>2DFrameWork\components\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="D2Image.cpp">
+      <Filter>2DFrameWork\components\Image</Filter>
+    </ClCompile>
+    <ClCompile Include="LoadingScene.cpp">
+      <Filter>MainGame\Scene</Filter>
+    </ClCompile>
+    <ClCompile Include="D2ImageManager.cpp">
+      <Filter>2DFrameWork\components\manager</Filter>
+    </ClCompile>
+    <ClCompile Include="LogoScene.cpp">
+      <Filter>MainGame\Scene\Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="MenuScene.cpp">
+      <Filter>MainGame\Scene\Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="TitleScene.cpp">
+      <Filter>MainGame\Scene\Intro</Filter>
+    </ClCompile>
+    <ClCompile Include="TutorialScene.cpp">
+      <Filter>MainGame\Scene\Tutorial</Filter>
+    </ClCompile>
+    <ClCompile Include="Cuphead.cpp">
+      <Filter>MainGame\Mobs\Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Bullet.cpp">
+      <Filter>MainGame\Mobs\Player\Bullet</Filter>
+    </ClCompile>
+    <ClCompile Include="Footing.cpp">
+      <Filter>MainGame\Objects</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ResourceCompile Include="cuphead_20191118.rc">
+      <Filter>Resource Files</Filter>
+    </ResourceCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Image Include="small.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+    <Image Include="cuphead_20191118.ico">
+      <Filter>Resource Files</Filter>
+    </Image>
+  </ItemGroup>
+</Project>
